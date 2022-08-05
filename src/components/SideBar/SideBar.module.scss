@@ -1,0 +1,26 @@
+@import 'styles/_variables';
+@import 'styles/_mixin';
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+  @include tab {
+    width: 40vw;
+    min-width: 300px;
+  }
+  p {
+    font-weight: bold;
+    width: 100%;
+    padding-left: 8px;
+    @include tab {
+      width: auto;
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  .dropdown {
+    margin-bottom: 24px;
+  }
+}

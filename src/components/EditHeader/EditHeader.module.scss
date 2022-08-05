@@ -1,0 +1,7 @@
+@import 'styles/_variables';
+@import 'styles/_mixin';
+
+.wrapper {
+  width: 100%;
+  background-color: $gray;
+}

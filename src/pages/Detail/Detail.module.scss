@@ -1,0 +1,7 @@
+@import 'styles/_variables';
+@import 'styles/_mixin';
+
+.contents {
+  display: flex;
+  padding-top: calc($header-height + $edit-header-height);
+}
