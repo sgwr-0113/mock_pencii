@@ -72,7 +72,7 @@ export const DashTable: React.FC = () => {
                   const value = post[column.id];
                   return (
                     <TableCell key={column.id} align={column.align}>
-                      <a href="/detail">
+                      <a href={process.env.PUBLIC_URL + '/detail'}>
                         <Box sx={{ width: '100%' }}>{value}</Box>
                       </a>
                     </TableCell>

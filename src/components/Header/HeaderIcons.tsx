@@ -52,7 +52,7 @@ export const HeaderIcons: React.FC = () => {
       onClose={handleMenuClose}
     >
       <MenuItem onClick={handleMenuClose}>マイページ</MenuItem>
-      <a href="/login">
+      <a href={process.env.PUBLIC_URL + '/login'}>
         <MenuItem onClick={handleMenuClose}>ログアウト</MenuItem>
       </a>
     </Menu>

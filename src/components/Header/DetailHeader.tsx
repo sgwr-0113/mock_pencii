@@ -12,7 +12,7 @@ export const DetailHeader: React.FC = () => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <a href="/">
+          <a href={process.env.PUBLIC_URL}>
             <IconButton size="large" edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
               <HomeIcon />
             </IconButton>

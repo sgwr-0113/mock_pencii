@@ -4,12 +4,14 @@ import { Index } from 'pages/Index/Index';
 import { Login } from 'pages/Login/Login';
 import { Detail } from 'pages/Detail/Detail';
 
+const homeUrl = process.env.PUBLIC_URL;
+
 export const Routing = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter>
     <Routes>
-      <Route path={`/`} element={<Index />} />
-      <Route path={`/login`} element={<Login />} />
-      <Route path={`/detail`} element={<Detail />} />
+      <Route path={homeUrl} element={<Index />} />
+      <Route path={homeUrl + '/login'} element={<Login />} />
+      <Route path={homeUrl + '/detail'} element={<Detail />} />
     </Routes>
   </BrowserRouter>
 );

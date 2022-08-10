@@ -66,7 +66,7 @@ export const Header: React.FC = () => {
           </Box>
 
           {/* Penciiロゴ */}
-          <a href="/">
+          <a href={process.env.PUBLIC_URL}>
             <Typography variant="h6" noWrap component="div" sx={{ display: { xs: 'none', md: 'flex' } }}>
               Pencii
             </Typography>

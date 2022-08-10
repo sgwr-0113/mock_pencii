@@ -23,9 +23,11 @@ export const Login: React.FC = () => {
             <TextField type="password" label="パスワード" variant="standard" fullWidth required />
           </div>
           <div className={Styles['container_button']}>
-            <Button type="submit" color="primary" variant="contained" fullWidth>
-              サインイン
-            </Button>
+            <a href={process.env.PUBLIC_URL}>
+              <Button type="submit" color="primary" variant="contained" fullWidth>
+                サインイン
+              </Button>
+            </a>
           </div>
         </div>
         <div className={Styles['caption']}>
