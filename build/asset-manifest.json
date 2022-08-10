@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d11b21d.css",
-    "main.js": "/static/js/main.75045d4d.js",
-    "static/js/787.a6f7f4a9.chunk.js": "/static/js/787.a6f7f4a9.chunk.js",
-    "static/media/top.jpg": "/static/media/top.04a767696dbdeb080869.jpg",
-    "static/media/logo-login.jpeg": "/static/media/logo-login.b24f0372d4d4935d61e8.jpeg",
-    "index.html": "/index.html",
-    "main.7d11b21d.css.map": "/static/css/main.7d11b21d.css.map",
-    "main.75045d4d.js.map": "/static/js/main.75045d4d.js.map",
-    "787.a6f7f4a9.chunk.js.map": "/static/js/787.a6f7f4a9.chunk.js.map"
+    "main.css": "/mock_pencii/static/css/main.7d11b21d.css",
+    "main.js": "/mock_pencii/static/js/main.9b46de1e.js",
+    "static/js/787.a6f7f4a9.chunk.js": "/mock_pencii/static/js/787.a6f7f4a9.chunk.js",
+    "static/media/top.jpg": "/mock_pencii/static/media/top.04a767696dbdeb080869.jpg",
+    "static/media/logo-login.jpeg": "/mock_pencii/static/media/logo-login.b24f0372d4d4935d61e8.jpeg",
+    "index.html": "/mock_pencii/index.html",
+    "main.7d11b21d.css.map": "/mock_pencii/static/css/main.7d11b21d.css.map",
+    "main.9b46de1e.js.map": "/mock_pencii/static/js/main.9b46de1e.js.map",
+    "787.a6f7f4a9.chunk.js.map": "/mock_pencii/static/js/787.a6f7f4a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d11b21d.css",
-    "static/js/main.75045d4d.js"
+    "static/js/main.9b46de1e.js"
   ]
 }
