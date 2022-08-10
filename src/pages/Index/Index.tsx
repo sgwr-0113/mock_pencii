@@ -8,7 +8,6 @@ import { TrashTable } from 'components/DashTable/TrashTable';
 
 export const Index: React.FC = () => {
   const [isTrashOpen, setIsTrashOpen] = useState<boolean>(false);
-  console.log(isTrashOpen);
 
   return (
     <div className={Styles['wrapper']}>
